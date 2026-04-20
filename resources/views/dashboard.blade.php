@@ -47,6 +47,5 @@
         </div>
     </div>
 
-    <!-- Link to the main game logic -->
-    <script src="{{ asset('js/game.js') }}"></script>
+    @vite('resources/js/game/game.js')
 </x-app-layout>
